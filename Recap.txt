@@ -1,0 +1,266 @@
+Recap
+
+Tag ,Element, Attributes
+
+file:///C:/Users/laxma/Downloads/Notes/HTML.pdf
+
+element?
+
+Types of element?
+
+Attributes  : It;s provide additional information to the Element in opening tag
+
+
+
+example of Elements with tag
+
+Emphasize semantic HTML and accessibility.
+
+What is Semantic HTML/Elements: Semantic HTML are meaningful tags that are meaningful to both developer and browsers 
+
+Why do we need Semantic HTML :
+
+Improve readability :Semantic tags make code easier for developers to understand.
+
+Better SEO : Search engines like Google try to understand webpage content. without sematic search engines understand less 
+
+SEO (Search Engine Optimization) is the practice of improving your website’s content and structure to rank higher on search engines like Google
+
+Better accessibility: Accessibility means making websites usable for everyone, including people with disabilities.
+https://www.nvaccess.org/download/?nvdaVersion=2023.3
+Helps screen readers understand the page
+
+Semantic HTML Basics Practice Project:  
+
+
+
+
+
+
+Box model ?What,Why, how?          S1  
+The CSS Box Model is a fundamental concept in web design that treats every HTML element as a rectangular box
+
+Layers of the Box Model
+Content :text,image
+Padding: space between Content and Border
+Border: A line that is around padding
+Margin: space after Border
+
+Types of CSS in Web Development
+
+1. Inline CSS
+
+Inline CSS is applied directly to a specific HTML element using the
+style attribute.Usage: Best for quick, one-off style changes or testing
+specific elements.
+
+Where and How to use: It's used directly within the opening tag of element using style attribute
+
+---------------------------------------------------------------------------
+
+2. Internal CSS
+
+Internal CSS is defined within a "style" tag in the head section of an
+keep styles separate from content
+
+Where and How to use: It's used inside head element within style element
+
+---------------------------------------------------------------------------
+
+3. External CSS
+External CSS is defined in a separate .css file and linked to the HTML
+document using the "<link />" tag.Usage: Ideal for styling multiple pages
+consistently and maintaining a clean separation between content and
+presentation.
+
+Where and How to use: We need to create separate file and link it with html using <link> tag / element
+
+****************15-05-2026****************
+
+Recap
+------------------------------------------
+Semantics Elements - > Its three importance
+Id and Class : To select elements
+
+What is Div - > TO group related content
+
+Link: Using id to create links (HOW , When) -->
+Demonstration with Project
+
+Example: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/iframe
+Project - > About Page
+-------------------------------------
+
+
+****************16-05-2026****************
+
+-------NEW TOPIC--------------------
+
+Today's Topic ( Concept + Practical Optimization ) -->
+Our About Page
+
+
+Semantic HTML Basics  (Deep Dive Its Importance
+( What , Why , Where, How ))
+
+Example Of Semantic Elements:
+
+
+---------------------------------------------------------------------------------------------
+<header>: Top section of a webpage or section. Eg. Logo, Navigation,Intro content
+---------------------------------------------------------------------------------------------
+<nav> : Used for navigation links/menu
+---------------------------------------------------------------------------------------------
+<main>: Contains the main content of the webpage.There should usually be only one <main> element.
+---------------------------------------------------------------------------------------------
+<section>: Grouped section of related content.
+---------------------------------------------------------------------------------------------
+<article>: Represents independent content that can stand alone.
+            Eg. News Article, Blog post, comments, or product reviews
+---------------------------------------------------------------------------------------------
+<aside> : Contains side content related to the main content. | link: https://timesofindia.indiatimes.com/
+---------------------------------------------------------------------------------------------
+<details> : Creates a expandable/collapsible content
+
+############ Example START ####################
+
+How it works
+<summary> → The visible clickable title
+<p> → Content shown when expanded
+
+<details>
+  <summary>What is HTML</summary>
+  <p>HTML stands for HyperText Markup Language.</p>
+</details>
+
+<details>
+  <summary>What is CSS</summary>
+  <p>CSS stands for Cascading Style Sheets.</p>
+</details>
+
+<details>
+  <summary>What is JavaScript</summary>
+  <p>JavaScript is a programming language used to make web pages interactive.</p>
+</details>
+
+############ Example END ####################
+
+---------------------------------------------------------------------------------------------
+<figcaption> : Adds a caption/description to a figure
+
+############ Example START ####################
+
+How it works
+<summary> → The visible clickable title
+<p> → Content shown when expanded
+
+      <figure>
+      <img
+        src="https://static.toiimg.com/thumb/131129800.jpg?photoid=131129800&imgsize=121194&width=600&resizemode=4"
+        alt="Nature"
+      />
+      <figcaption>Beautiful Nature View</figcaption>
+      </figure>
+
+############ Example END ####################
+---------------------------------------------------------------------------------------------
+<figure> : Refer to <figcaption>
+---------------------------------------------------------------------------------------------
+<footer>: Represents the bottom section of a webpage or section.
+Eg. Usually contains:
+
+Copyright
+Contact info
+Social links
+---------------------------------------------------------------------------------------------
+<mark> : Highlights text.
+Eg.
+<p>HTML is very <mark>important</mark> for web development.</p>
+---------------------------------------------------------------------------------------------
+<summary>: refer to <details>
+---------------------------------------------------------------------------------------------
+<time>: used to display time, Not used usually
+Eg. <p>Class starts at <time>10:00 AM</time></p>
+    <time datetime="2026-05-16">May 16, 2026</time>
+---------------------------------------------------------------------------------------------
+
+<iframe> : The <iframe> tag is used to embed another webpage,
+            video, map, or document inside your webpage.
+
+
+Example 1: Youtube
+
+############ Example START ####################
+  <iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/tgbNymZ7vqY"
+  title="YouTube video"
+>
+</iframe>
+############ Example END ####################
+
+
+
+Example 2: Google  Maps
+############ Example START ####################
+
+<iframe
+  src="https://www.google.com/maps/embed?pb=!1m18..."
+  width="600"
+  height="450">
+</iframe>
+
+############ Example END ####################
+
+
+
+Example 3: HTML Page
+############ Example START ####################
+
+<iframe src="page1.html" width="500" height="200"></iframe>
+
+############ Example END ####################
+
+
+
+Example 4:PDFs
+############ Example START ####################
+
+<iframe
+  src="resume.pdf"
+  width="100%"
+  height="600">
+</iframe>
+
+############ Example END ####################
+
+
+
+
+
+Best Practices of HTML and Semantic HTML
+
+Good HTML is:
+
+Clean
+Readable
+Accessible
+SEO-friendly
+Easy to maintain
+
+
+
+
+
+Ref:   https://www.w3schools.com/html/html5_semantic_elements.asp
+
+Image for Semantic Ref :
+
+https://static.semrush.com/blog/uploads/media/62/de/62de85ae40932e6d41e2966b3af3ca8e/semantic-html5-markup-related-aside-kalicube.png
+
+ https://kalicube.com/learning-spaces/faq-list/seo-glossary/html5-semantic-tags-what-are-they/
+
+
+Emphasize semantic HTML and accessibility. ?
+
